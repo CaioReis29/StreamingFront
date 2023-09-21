@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+/* Reset de margens e preenchimento */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral {
+    width: 45px; /* Largura do menu */
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+.menu-lateral ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+}
+
+.menu-lateral li {
+    padding: 10px;
+    text-align: center;
+}
+
+/* efeito de troca de cor quando o mouse passa por cima */
+.menu-lateral li:hover {
+    background-color: #555; /* Cor de fundo quando o mouse passa por cima */
+}
+
+
+
