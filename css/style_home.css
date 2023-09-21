@@ -1,5 +1,42 @@
+body{
+    background-color: #3a4278;
+}
 
+/* Estilo da barra de pesquisa */
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+/* Estilo do campo de pesquisa */
+.search input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Estilo do botão de pesquisa */
+.search button {
+    background-color: #007BFF;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Estilo da imagem da lupa (ajuste o tamanho conforme necessário) */
+.search button img {
+    width: 20px;
+    height: 20px;
+    fill: #fff; /* Cor do ícone de pesquisa */
+}
 
 
 
