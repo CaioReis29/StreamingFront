@@ -1,79 +1,52 @@
 body{
-    background-color: #3a4278;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1000vh;
+    background-color: #3A4278;
 }
 
 
-/* estilo cabeçalho */
-header{
+.cabecalho{
+    background-color: #3A4278;
     display: flex;
-    align-items: self-start;
+    justify-content: space-between;
+    align-items: center; /* Isso centraliza verticalmente os elementos */
+    
     
 }
 
-/* Estilo da barra de pesquisa */
-.search {
+.logo-and-search{
     display: flex;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo do campo de pesquisa */
-.search input[type="text"] {
-    flex-grow: 1;
-    border: none;
-    outline: none;
-    padding: 8px;
-    border-radius: 5px 0 0 5px;
+
+.cabecalho .search{
+    margin-left: 10px;
 }
 
-/* Estilo do botão de pesquisa */
-.search button {
-    background-color: #7981B8;
-    border: none;
-    outline: none;
-    padding: 8px 12px;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
+.menu-container{
+    display: flex;
+    gap: 76px;
+    
 }
 
-/* Estilo da imagem da lupa (ajuste o tamanho conforme necessário) */
-.search button img {
-    width: 20px;
-    height: 20px;
-    fill: #fff; /* Cor do ícone de pesquisa */
+.grid-container{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    
 }
-
-/* Reset de margens e preenchimento */
-body, ul {
-    margin: 0;
-    padding: 0;
+.grid-container img{
+    width: 200px;
+    height: 300px;
 }
-
-.menu-lateral {
-    width: 45px; /* Largura do menu */
-    background-color: #333; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    font-family: Arial, sans-serif; /* Fonte do texto */
+.grid-item1-menu-lateral{
+    background-color: #A19F9F;
+    grid-row: 1 / 7;
 }
-
-.menu-lateral ul {
-    list-style-type: none; /* Remover marcadores de lista */
-    padding: 0;
-}
-
-.menu-lateral li {
-    padding: 10px;
-    text-align: center;
-}
-
-/* efeito de troca de cor quando o mouse passa por cima */
-.menu-lateral li:hover {
-    background-color: #555; /* Cor de fundo quando o mouse passa por cima */
-}
-
 
 footer{
     background-color: #333232;
@@ -82,5 +55,3 @@ footer{
     justify-content: center;
     align-items: end;
 }
-
-
