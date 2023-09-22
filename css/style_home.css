@@ -2,6 +2,14 @@ body{
     background-color: #3a4278;
 }
 
+
+/* estilo cabeçalho */
+header{
+    display: flex;
+    align-items: self-start;
+    
+}
+
 /* Estilo da barra de pesquisa */
 .search {
     display: flex;
@@ -23,7 +31,7 @@ body{
 
 /* Estilo do botão de pesquisa */
 .search button {
-    background-color: #007BFF;
+    background-color: #7981B8;
     border: none;
     outline: none;
     padding: 8px 12px;
@@ -37,13 +45,6 @@ body{
     height: 20px;
     fill: #fff; /* Cor do ícone de pesquisa */
 }
-
-
-
-
-
-
-
 
 /* Reset de margens e preenchimento */
 body, ul {
@@ -73,5 +74,13 @@ body, ul {
     background-color: #555; /* Cor de fundo quando o mouse passa por cima */
 }
 
+
+footer{
+    background-color: #333232;
+    color: #A19F9F;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 
 

@@ -1,0 +1,18 @@
+.topo{
+    background-color: aliceblue;
+    height: 10px;
+    width: 150px;
+}
+
+.topo a{
+    text-decoration: none;
+    color: black;
+}
+
+.poster{
+    background-color: aliceblue;
+    display: grid;
+    gap: 5px;
+    align-items: start;
+
+}
