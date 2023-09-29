@@ -38,7 +38,7 @@ body {
   }
   
   .background-image {
-    background-image: url("/assets/img/img-fundo.png");
+    background-image: url("/assets/img/serie-fundo.png");
     background-size: cover;
     width: 80%;
     height: 800px;
@@ -47,7 +47,7 @@ body {
     display: flex;
     margin-left: 269px;
   }
-
+  
   .conteudo-coluna {
     text-align: right;
     margin-top: -725px;
@@ -140,7 +140,6 @@ body {
     text-align: center;
     padding: 10px;
     margin-top: 150px;
-
   }
   
   .comentarios {
@@ -208,3 +207,85 @@ body {
     text-align: center;
     margin-top: 20px;
   }
+
+
+
+  .sidebar {
+    width: 120px;
+    background-color: #31135b;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 40px;
+    position: fixed;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.menu-icon {
+    width: 70px; /* Defina o tamanho dos seus ícones aqui */
+    height: 70px;
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+.logo-and-search {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 700px;
+    margin-left: 35%;
+    padding: 100px;
+    margin-top: -300px;
+}
+
+.search input {
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.search button {
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin-top: 17px;
+}
+
+button:hover {
+    background-color: rgb(95, 95, 228);
+}
+
+.logo{
+  display: flex;
+  width: 300px;
+  height: 250px;
+  margin-left: 100px;
+}
+
+footer{
+  background-color: #333232;
+  color: #A19F9F;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 200px;
+}
