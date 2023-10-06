@@ -1,0 +1,98 @@
+.gradeFilme{
+    display: block;
+    padding: 5px;
+    width: 94%;
+    height: 97%;
+    margin-right: 50px;
+}
+
+.container{
+    margin-right: 50px;
+    width: 94%;
+    height: 97%;
+}
+
+body{
+    background: #3A4278;
+    margin: 0;
+}
+
+.relogio{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: -30px;
+    margin-left: -42px;
+}
+
+.grade_Texto{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 2px;
+    width: 168px;
+}
+
+.p_Descricao{
+    color: #FFF;
+    font-family: Inter;
+    font-size: Arial, 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    margin-top: -3px;
+    width: 120px;
+}
+
+.p_Titulo{
+    color: #FFF;
+    font-family: Inder;
+    font-size: Arial, 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;
+    margin: 0;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+
+.filmesRecentes {
+    background-color: #eae9ec;
+    color: rgb(9, 9, 9);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: Arial, 25px;
+    width: 290px;
+    height: 38px;
+    margin-left: 350px;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.direito_Titulo {
+    color: #3D3939;
+    font-family: Istok Web;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot {
+    text-align: center;
+    margin-top: 100px;
+    height: 100px;
+  }
