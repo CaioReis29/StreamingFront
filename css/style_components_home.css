@@ -1,18 +1,49 @@
-.topo{
-    background-color: aliceblue;
-    height: 10px;
-    width: 150px;
+
+.grid-item2-destaques{
+    
+    grid-column-start:1;
+    grid-column-end:7;
+}
+.grid-item2-destaques img{
+    width: 100%;
 }
 
-.topo a{
-    text-decoration: none;
-    color: black;
-}
-
-.poster{
-    background-color: aliceblue;
+.grid-item3-topfive{
+    background-color: blueviolet;
     display: grid;
-    gap: 5px;
-    align-items: start;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 5px;
+}
+
+.grid-item3-topfive > div {
+    width: 100%;
+}
+.grid-item3-topfive > div img{
+    width: 100%;
+}
+
+
+.grid-item4-filmes{
+    background-color: blue;
+    grid-column-start:1;
+    grid-column-end:6;
+}
+.grid-item4-filmes > div{
+    height: 300px;
+    width: 260px;
 
 }
+ 
+.grid-item4-filmes > div img{
+    width: 100%;
+}
+
+.grid-item5-series{
+    background-color: pink;
+    grid-column-start:1;
+    grid-column-end:6;
+}
+
+
+
+

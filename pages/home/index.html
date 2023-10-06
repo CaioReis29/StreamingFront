@@ -13,18 +13,23 @@
 </head>
 
 <body>
+
+
     <!-- criando a seção de pesquisa -->
-    <header>
-        <img src="/assets/img/logo_streaming.png" width="100px" alt="logo da plataforma">
-        <div class="search">
-            <input type="text" placeholder="Pesquise por filmes, series...">
-            <button><img src="/assets/icons/pesquisa.svg" alt="lupa de pesquisa"></button>
+    <header class="cabecalho">
+        <div class="logo-and-search">
+            <img src="/assets/img/logo_streaming.png" width="100px" alt="logo da plataforma">
+            <div class="search">
+                <input type="text" placeholder="Pesquise por filmes, series...">
+                <button><img src="/assets/icons/pesquisa.svg" alt="lupa de pesquisa"></button>
+            </div>
         </div>
     </header>
 
-    <!--menu de barra lateral-->
-    <!-- os componentes do menu serão as home, conta, salvos e configurações -->
-    <aside class="menu-lateral">
+    <div class="menu-container">
+
+    
+    <aside class="grid-item1-menu-lateral">
         <ul>
             <li><img src="/assets/icons/home.svg" alt="símbolo casa"></li>
             <li><img src="/assets/icons/usuario.svg" alt="simbolo de usuário"></li>
@@ -32,58 +37,51 @@
             <li><img src="/assets/icons/configuracao.svg" alt="simbolo de configuracao"></li>
         </ul>
     </aside>
+    <div class="grid-container">
+        <!--menu de barra lateral-->
+        <!-- os componentes do menu serão as home, conta, salvos e configurações -->
+
+        <a href=""><img src="/assets/icons/trofeu.svg" alt="">Filmes em destaque</a>
+        <section class="grid-item2-destaques">
+            <img src="/assets/img/banner.jpg" alt="">
+
+        </section>
+
+        <!-- destaquem -fim- -->
 
 
-    <div class="topo">
-        <a href="#">filmes em destaque</a><img src="/assets/icons/trofeu.svg" alt="simbolo de destaque">
-    </div>
-    <section class="destaques">
-        <div class="poster">
-        <!-- espaço para cartaz de destaque -->
-            <div class="sinopse">
-                <h2>sobrenatural, a porta vermelha</h2>
-                <p>#</p>
-            </div>
 
-        </div>
-       
-    </section>
-    <hr>
-    <!-- destaquem -fim- -->
-    
-    <div class="topo"><p>TOP 5 HOJE <img src="/assets/icons/estrela.svg" alt="estrela"></p></div>
-    <section class="topfive">
- <!-- colocar 5 filmes top 5 -->
-        <div>
-            <img src="/assets/img/barbie.jpg" alt="cartaz barbie">
-        </div>
+        <!-- colocar 5 filmes top 5 -->
         
-        <div>
+        <div class="top1">
+            <img src="/assets/img/barbie.jpg" width="260px" height="300px" alt="cartaz barbie">
+        </div>
+
+        <div class="top2">
             <img src="/assets/img/besouroAzuljpg.jpg" alt="cartaz besouro azul">
         </div>
-            
-        <div>
+
+        <div class="top3">
             <img src="/assets/img/bomba.jpg" alt="cartaz oppenheimer">
         </div>
 
+        <div class="top4">
+            <a href="/pages/movies/model_movie.html"><img src="/assets/img/velozes.jpg" alt="cartaz velozes e furiosos"></a>
+        </div>
+
+        <div class="top5">
+            <a href="/pages/movies/model_movie.html"><img src="/assets/img/image 36.png" alt="cartaz sobrenatural"></a>
+        </div>
+
+
+
+        <!-- colocar 5 filmes mais recentes e botão ver mais  -->
         <div>
-            <img src="/assets/img/velozes.jpg" alt="cartaz velozes e furiosos">
+            <a href="/pages/movies/model_movie.html"><img src="/assets/img/harry.jpg" alt="cartaz harry potter"></a>
         </div>
 
         <div>
-            <img src="/assets/img/freira.jpg" alt="cartaz a freira">
-        </div>
-    </section>
-    <hr>
-
-    <section class="filmes">
-<!-- colocar 5 filmes mais recentes e botão ver mais  -->
-        <div>
-            <img src="/assets/img/harry.jpg" alt="cartaz harry potter">
-        </div>
-
-        <div>
-            <img src="/assets/img/up.jpg" alt="cartaz up altas aventuras">
+            <a href="/pages/movies/model_movie.html"><img src="/assets/img/up.jpg" alt="cartaz up altas aventuras"></a>
         </div>
 
         <div>
@@ -97,38 +95,40 @@
         <div>
             <img src="/assets/img/panico.jpg" alt="cartaz pânico">
         </div>
-    </section>
-     <hr>
 
-    <section class="series">
-<!-- colocar 5 series mais recentes e botão ver mais -->
-        <div>
-            <img src="/assets/img/drogados.jpg" alt="caratz euphoria">
-        </div>
 
-        <div>
-            <img src="/assets/img/estranhos.jpg" alt="cartaz stranger things">
-        </div>
 
-        <div>
-            <img src="/assets/img/squidgame.jpg" alt="cartaz squid game">
-        </div>
+        
+            <!-- colocar 5 series mais recentes e botão ver mais -->
+            <div>
+                <img src="/assets/img/drogados.jpg" alt="caratz euphoria">
+            </div>
 
-        <div>
-            <img src="/assets/img/loki.jpg" alt="cartaz loki">
-        </div>
+            <div>
+                <img src="/assets/img/estranhos.jpg" alt="cartaz stranger things">
+            </div>
 
-        <div>
-            <img src="/assets/img/supernatural.jpg" alt="cartaz supernatural">
-        </div>
-    </section>
-    <hr>
-    
+            <div>
+                <a href="/pages/series/model_serie.html"><img src="/assets/img/squidgame.jpg" alt="cartaz squid game"></a>
+            </div>
 
-    <footer>
+            <div>
+                <a href="/pages/series/model_serie.html"><img src="/assets/img/loki.jpg" alt="cartaz loki"></a>
+            </div>
+
+            <div>
+                <a href="/pages/series/model_serie.html"><img src="/assets/img/serie.png" alt="cartaz hemlock grove"></a>
+            </div>
+        
+
+    </div> <!-- grid container -->
+</div>
+
+    <footer class="foot">
         <p>TODOS OS DIREITOS RESERVADOS</p>
         <!-- alinhar footer no final da página -->
     </footer>
+
 </body>
 
 </html>
