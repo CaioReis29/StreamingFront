@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #3A4278;
+}
+/* estilo do cabeçalho */
+header{
+    background-color: rgba(127, 136, 200, 1);
+    position: absolute;
+    height: 50px;
+    width: 100vw;
+    margin-left: 60px;
+}
+/* barra de pesquisa */
+.search{
+   display: flex;
+   justify-content: center;
+   
+}
+/* estilo da logo no cabeçalho */
+.logo{
+    width: 60px;
+    
+}
+
+.search input{
+    background-color: aliceblue;
+    margin-top: 5px;
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+}
+/* esta parte está estilizando a color do texto do placeholder, já que ele não chega a ser um elemento html */
+#pesquisa::placeholder{
+    margin-left: 100px;
+    color:grey;
+}
+
+/* estilo do botão de pesquisa */
+button{
+    width: 50px;
+    height: 32px;
+    margin-top: 5px;
+    background-color: aliceblue;
+}
+ button::hover{
+    background-color: #7981B8;
+ }
+
+/* estilo menu */
+aside{
+    background-color: rgba(127, 136, 200, 1);
+    position: fixed;
+    height: 100vh;
+    width: 60px;
+    
+}
+/* estilo menu lista */
+aside ul li{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+
+/*  */
+aside ul li:hover{
+    background-color:#7981B8;
+}
+
+/* posicionando grid */
+article{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 300px;
+    
+}
+
+/* criando grid dos filmes */
+.parent-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { grid-area: 2 / 4 / 3 / 5; }
+    .div6 { grid-area: 2 / 5 / 3 / 6; }
+    .div7 { grid-area: 3 / 1 / 4 / 2; }
+    .div8 { grid-area: 3 / 2 / 4 / 3; }
+    .div9 { grid-area: 3 / 3 / 4 / 4; }
+    .div10 { grid-area: 3 / 4 / 4 / 5; }
+    .div11 { grid-area: 3 / 5 / 4 / 6; }
+    .div12 { grid-area: 4 / 1 / 5 / 2; }
+    .div13 { grid-area: 4 / 2 / 5 / 3; }
+    .div14 { grid-area: 4 / 3 / 5 / 4; }
+    .div15 { grid-area: 4 / 4 / 5 / 5; }
+    .div16 { grid-area: 4 / 5 / 5 / 6; }
+
+

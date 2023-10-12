@@ -7,122 +7,72 @@
     <!-- link google fontes -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- folhas de estilo -->
-    <link rel="stylesheet" href="/css/style_home.css">
-    <link rel="stylesheet" href="/css/style_components_home.css">
+    <link rel="stylesheet" href="/css/home.css">
     <title>Página Home</title>
 </head>
 
 <body>
 
-
-    <!-- criando a seção de pesquisa -->
-    <header class="cabecalho">
-        <div class="logo-and-search">
-            <img src="/assets/img/logo_streaming.png" width="100px" alt="logo da plataforma">
-            <div class="search">
-                <input type="text" placeholder="Pesquise por filmes, series...">
-                <button><img src="/assets/icons/pesquisa.svg" alt="lupa de pesquisa"></button>
-            </div>
+    <!-- seção de logomarca e pesquisa -->
+    <header>
+        
+        <div class="search">
+            <img class="logo" src="/assets/img/logo.png" alt="logo do site">
+            <input id="pesquisa" type="text" placeholder="Pesquise por filmes, series...">
+            <button><img src="/assets/icons/pesquisa.svg" alt="lupa de pesquisa"></button>
         </div>
     </header>
-
-    <div class="menu-container">
-
-    
-    <aside class="grid-item1-menu-lateral">
+    <!-- menu de barra lateral -->
+    <aside>
         <ul>
-            <li><img src="/assets/icons/home.svg" alt="símbolo casa"></li>
-            <li><img src="/assets/icons/usuario.svg" alt="simbolo de usuário"></li>
-            <li><img src="/assets/icons/salvos.svg" alt="simbolo de conteudo salvo"></li>
-            <li><img src="/assets/icons/configuracao.svg" alt="simbolo de configuracao"></li>
+            <li><img src="/assets/icons/home.svg" alt="icone de home menu" width="50px"></li>
+            <li><img src="/assets/icons/usuario.svg" alt="icone de usuário menu" width="50px"></li>
+            <li><img src="/assets/icons/salvos.svg" alt="icone de salvos menu" width="50px"></li>
+            <li><img src="/assets/icons/configuracao.svg" alt="icone de configuração menu" width="50px"></li>
         </ul>
     </aside>
-    <div class="grid-container">
-        <!--menu de barra lateral-->
-        <!-- os componentes do menu serão as home, conta, salvos e configurações -->
 
-        <a href=""><img src="/assets/icons/trofeu.svg" alt="">Filmes em destaque</a>
-        <section class="grid-item2-destaques">
-            <img src="/assets/img/banner.jpg" alt="">
-
-        </section>
-
-        <!-- destaquem -fim- -->
-
-
-
-        <!-- colocar 5 filmes top 5 -->
-        
-        <div class="top1">
-            <img src="/assets/img/barbie.jpg" width="260px" height="300px" alt="cartaz barbie">
-        </div>
-
-        <div class="top2">
-            <img src="/assets/img/besouroAzuljpg.jpg" alt="cartaz besouro azul">
-        </div>
-
-        <div class="top3">
-            <img src="/assets/img/bomba.jpg" alt="cartaz oppenheimer">
-        </div>
-
-        <div class="top4">
-            <a href="/pages/movies/model_movie.html"><img src="/assets/img/velozes.jpg" alt="cartaz velozes e furiosos"></a>
-        </div>
-
-        <div class="top5">
-            <a href="/pages/movies/model_movie.html"><img src="/assets/img/image 36.png" alt="cartaz sobrenatural"></a>
-        </div>
-
-
-
-        <!-- colocar 5 filmes mais recentes e botão ver mais  -->
-        <div>
-            <a href="/pages/movies/model_movie.html"><img src="/assets/img/harry.jpg" alt="cartaz harry potter"></a>
-        </div>
-
-        <div>
-            <a href="/pages/movies/model_movie.html"><img src="/assets/img/up.jpg" alt="cartaz up altas aventuras"></a>
-        </div>
-
-        <div>
-            <img src="/assets/img/panteranegra.jpg" alt="cartaz scarface">
-        </div>
-
-        <div>
-            <img src="/assets/img/laranjamecanica.jpg" alt="cartaz laranja mecânica">
-        </div>
-
-        <div>
-            <img src="/assets/img/panico.jpg" alt="cartaz pânico">
-        </div>
-
-
-
-        
-            <!-- colocar 5 series mais recentes e botão ver mais -->
-            <div>
-                <img src="/assets/img/drogados.jpg" alt="caratz euphoria">
+    <!-- div de quebra de posição -->
+    
+   <article>
+             <!-- div do grid pai -->
+             <div class="parent-grid">
+                <a href="">destaques</a>
+                <div class="div1">
+                    <img src="/assets/img/Rectangle 5.svg" alt="">
+                </div>
+                <a href="">top 5</a>
+                <div class="div2">
+                    <img src="/assets/img/vingadores.png" alt="">
+                </div>
+                <div class="div3">
+                    <img src="/assets/img/cidade_invisivel.png" alt="">
+                </div>
+                <div class="div4">
+                    <img src="/assets/img/liga.png" alt="">
+                 </div>
+                <div class="div5">
+                    <img src="/assets/img/maquinas.png" alt="">
+                </div>
+                <div class="div6">
+                    <img src="/assets/img/exterminador.png" alt="">
+                </div>
+                <a href="">filmes</a>
+                <div class="div7">filme </div>
+                <div class="div8">filme </div>
+                <div class="div9">filme </div>
+                <div class="div10">filme </div>
+                <div class="div11">filme </div>
+                <a href="">series</a>
+                <div class="div12">serie </div>
+                <div class="div13">serie </div>
+                <div class="div14">serie </div>
+                <div class="div15">serie </div>
+                <div class="div16">serie</div>
             </div>
 
-            <div>
-                <img src="/assets/img/estranhos.jpg" alt="cartaz stranger things">
-            </div>
-
-            <div>
-                <a href="/pages/series/model_serie.html"><img src="/assets/img/squidgame.jpg" alt="cartaz squid game"></a>
-            </div>
-
-            <div>
-                <a href="/pages/series/model_serie.html"><img src="/assets/img/loki.jpg" alt="cartaz loki"></a>
-            </div>
-
-            <div>
-                <a href="/pages/series/model_serie.html"><img src="/assets/img/serie.png" alt="cartaz hemlock grove"></a>
-            </div>
-        
-
-    </div> <!-- grid container -->
-</div>
+   </article>
+    
 
     <footer class="foot">
         <p>TODOS OS DIREITOS RESERVADOS</p>
